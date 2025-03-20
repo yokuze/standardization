@@ -34,6 +34,7 @@
   "dependencies": {
     "@commitlint/cli": "12.1.1",
     "@silvermine/markdownlint-rule-indent-alignment": "0.2.0",
+    "@stylistic/stylelint-plugin": "3.1.2",
     "chalk": "4.1.2",
     "check-node-version": "4.0.3",
     "commander": "9.0.0",
@@ -42,10 +43,11 @@
     "conventional-recommended-bump": "6.1.0",
     "git-semver-tags": "4.1.1",
     "markdownlint-cli2": "0.15.0",
+    "postcss-scss": "4.0.9",
     "semver": "7.3.5",
-    "stylelint": "13.13.1",
-    "stylelint-config-standard": "22.0.0",
-    "stylelint-scss": "3.19.0"
+    "stylelint": "16.16.0",
+    "stylelint-config-standard": "37.0.0",
+    "stylelint-scss": "6.11.1"
   },
   "devDependencies": {
     "@silvermine/eslint-config": "3.0.1",
