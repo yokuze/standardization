@@ -30,10 +30,11 @@ module.exports = {
       '@stylistic/string-quotes': 'single',
       // TODO: Stylelint removed this rule and offered no replacement. Determine if we
       // should write our own.
-      '@stylistic/string-no-newline': true,
+      // 'string-no-newline': true,
       '@stylistic/color-hex-case': 'lower',
       // TODO: Stylelint removed this rule and offered no replacement. Determine if we
-      // should write our own. '@stylistic/color-hex-length': 'long',
+      // should write our own.
+      // 'color-hex-length': 'long',
       'color-no-invalid-hex': true,
       'no-invalid-position-at-import-rule': null,
       '@stylistic/number-leading-zero': 'always',
@@ -43,9 +44,12 @@ module.exports = {
       'property-no-unknown': true,
       'block-no-empty': true,
       'value-keyword-case': 'lower',
+      // TODO: Disable this rule until we can determine if we want to enforce it.
+      'selector-class-pattern': null,
+      'declaration-block-no-redundant-longhand-properties': null,
       // TODO: Stylelint removed this rule and offered no replacement. Determine if we
       // should write our own.
-      // '@stylistic/length-zero-no-unit': true,
+      // 'length-zero-no-unit': true,
       '@stylistic/function-comma-space-after': 'always-single-line',
       '@stylistic/function-comma-space-before': 'never',
       '@stylistic/function-parentheses-space-inside': 'never-single-line',
@@ -64,7 +68,7 @@ module.exports = {
       '@stylistic/declaration-block-trailing-semicolon': 'always',
       // TODO: Stylelint removed this rule and offered no replacement. Determine if we
       // should write our own.
-      // '@stylistic/declaration-empty-line-before': 'never',
+      // 'declaration-empty-line-before': 'never',
       'comment-whitespace-inside': 'always',
       'rule-empty-line-before': [
          'always',
